@@ -1,0 +1,55 @@
+body {
+	background-image: url(../images/img1.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #896e6e;
+	font-family: 'Hanalei Fill', cursive;
+	/*background-image: url(../images/retro.png);*/
+	/*background-color: #0070c9;*/
+}
+
+h1 {
+	font-size: 50px;
+	margin-bottom: 0;
+	background-color: #333;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	background-color: rgba(51,51,51,0);
+
+}
+
+h2{
+	font-size: 50px
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #627c48;
+	background-color: rgba(51,51,51,1.8);
+}
+
+#me {
+
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #627c48;
+	margin-top: 50px;
+}
+
+.about {
+	color: #c5cc92;
+	width: 100%;
+	font-size: 18px;
+	line-height: 1.5;
+	background-color: rgba(51,51,51,0);
+	font-family: 'Kirang Haerang', cursive;
+
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+
+}
