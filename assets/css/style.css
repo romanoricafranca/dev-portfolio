@@ -24,7 +24,7 @@ h2{
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	color: #627c48;
-	background-color: rgba(51,51,51,1.8);
+	background-color: rgba(51,51,51,0.5);
 }
 
 #me {
@@ -35,7 +35,7 @@ h2{
 	border-style: solid;
 	border-width: 10px;
 	border-color: #627c48;
-	margin-top: 50px;
+	margin-top: 70px;
 }
 
 .about {
@@ -43,7 +43,7 @@ h2{
 	width: 100%;
 	font-size: 18px;
 	line-height: 1.5;
-	background-color: rgba(51,51,51,0);
+	background-color: rgba(51,51,51,0.5);
 	font-family: 'Kirang Haerang', cursive;
 
 }
@@ -53,13 +53,4 @@ h2{
 	margin: 0 auto;
 	text-align: center;
 
-}
-
-.fb {
-	color: #c5cc92;
-	width: 100%;
-	font-size: 22px;
-	line-height: 1.5;
-	background-color: rgba(51,51,51,0);
-	font-family: 'Kirang Haerang', cursive;
 }
