@@ -1,0 +1,100 @@
+*
+{
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 	font-family: sans-serif;
+}
+
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+
+
+.linkicon
+{
+	position: fixed;
+	top: 30%;
+	z-index: 1000;
+
+}
+
+
+.linkicon ul
+{
+	position: relative;
+	font-size: 1.2em;
+}
+
+.linkicon ul li
+
+{
+	list-style: none;
+	padding: 20px 20px;
+	margin-bottom: 15px;
+}
+
+.linkicon ul li a
+{
+	color: #262626;
+	font-size: 2em;
+}
+
+
+.linkicon ul li:hover a
+{
+	transform: scale(1.1);
+	color: #FEDF5E;
+}
+
+
+/*home*/
+
+.bghome
+{
+	background: url(../images/bghome.png);
+	background-attachment: fixed;
+	filter: blur(3px);
+	/*background-color: rgba(254, 223, 94, 1);*/
+	height: 100vh;
+}
+
+
+.porthead
+{
+	font-weight: bolder;
+	font-size: 4.5em;
+}
+
+
+
+/*end of home*/
+
+
+
+
+
+/*for tablet screen*/
+@media only screen and (min-width: 401px) and (max-width: 960px)
+{	
+
+
+}
+
+
+
+
+
+/*for mobile phone screen*/
+@media only screen and (max-width: 400px)
+{
+
+	.portfoliobg
+	{
+		width: 100%;
+	}
+
+}
